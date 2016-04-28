@@ -1,0 +1,16 @@
+*{padding: 0;margin:0;}
+.tip{position: relative; padding-top: 100px;padding-left: 200px;}
+.tip .popover{position: absolute;padding: 8px;border:1px solid #ddd;top:24px;border-radius: 5px;}
+.popover em,.popover i{
+    position: absolute;
+    border: 5px solid transparent;
+    border-style: dashed dashed solid dashed;
+}
+.popover .arrow-bottom em{border-bottom-color: #d8d8d8;top: -10px;}
+.popover .arrow-bottom i{border-bottom-color: #fff;top: -9px;}
+.popover .arrow-top em{border-top-color: #d8d8d8;bottom: -10px;}
+.popover .arrow-top i{border-top-color:  #fff;bottom: -9px;}
+.popover .arrow-left em{border-left-color: #d8d8d8;right:-10px;}
+.popover .arrow-left i{border-left-color:  #fff;right:-9px;}
+.popover .arrow-right em{border-right-color: #d8d8d8;left:-10px;}
+.popover .arrow-right i{border-right-color:  #fff;left:-9px;}

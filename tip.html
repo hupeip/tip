@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="tip.css">
+</head>
+<body>
+	<div class="tip">
+		<span class="tip-title">tip提示</span>
+	</div>
+	<script src="jquery-1.8.3.min.js"></script>
+	<script src="tip.js"></script>
+	<script>
+		$('.tip-title').tip({
+			content:'提示提示提示',
+			trigger:'click',
+			placement:'top',
+			color:'red',
+			size:'18px'
+		});
+	</script>
+</body>
+</html>
